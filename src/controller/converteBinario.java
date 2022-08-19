@@ -1,4 +1,4 @@
-//Feito em conjunto com Isabela Marques
+//Feito em conjunto com Rebeca Sena
 
 package controller;
 
@@ -10,12 +10,12 @@ public class converteBinario {
 	}
 
 	public String binario(int num ) {
-		// condição de parada
+		// condiÃ§Ã£o de parada
 		if (num == 0) {
 			return "";
 
 		}
-		// função do termo anterior
+		// funÃ§Ã£o do termo anterior
 		int resto = num % 2;
 		num = num / 2;
 		return binario(num) + resto;
