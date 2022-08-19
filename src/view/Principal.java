@@ -1,5 +1,4 @@
-
-//feito em conjunto com Isabela Marques
+//feito em conjunto com Rebeca Sena
 
 package view;
 
